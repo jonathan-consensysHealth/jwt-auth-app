@@ -1,0 +1,26 @@
+{
+  "name": "current-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStartAuth": "nodemon authServer.js",
+    "devStartResource": "nodemon resourceServer.js",
+    "dev": "npm run devStartAuth & npm run devStartResource",
+    "production": "echo \"Error: no production code yet specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jose": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
